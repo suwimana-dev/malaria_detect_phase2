@@ -1,0 +1,29 @@
+# data and outputs: keep out of git
+patches/
+*_patches/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.npz
+wandb/
+*_stats.json
+class_stats.csv
+per_image_class_inventory.csv
+smart_split_manifest.json
+
+# python / editor
+__pycache__/
+*.pyc
+.venv/
+env/
+.vscode/
+.idea/
+.DS_Store
